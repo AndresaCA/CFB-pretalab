@@ -1,0 +1,38 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    border: 1px solid black;
+}
+
+.card{
+    width: 425px;
+    height: 212px;
+    border: 1px solid black;
+    margin: 10px 0 10px 11px;
+    padding: 10px;
+}
+
+.cardTitulo{
+    font-size: medium;
+    margin: 0 0 10px 20px;
+    display: inline;
+
+}
+
+.cardText{
+    font-size: small;
+    display: inline;
+    width: 65%;
+    float: right;
+    line-height: 15pt;
+    margin-top: 30px;
+}
+.cardImagem{
+    width: 30%;
+    display: inline;
+    float: left;
+    margin-top: 50px;
+    border: 1px solid black;
+}
