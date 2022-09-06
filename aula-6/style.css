@@ -12,11 +12,10 @@ body{
     margin-right: auto;
     margin-left: auto;
     max-width: 960px;
-    padding: 20px;
     width: 100%;
     background: #101010;
-    margin-top: 20px;
-    border: none;
+    padding: 20px;
+    margin-top: 15px;
     border-radius: 5px;
 }
 
@@ -26,20 +25,20 @@ body{
     border-radius: 200px;
 }
 
-.containerSobre{
-    display: flex;
+.containerSobre{ /*Display obrigatorio aqui*/
+    display: flex; 
 }
 
-.sobre{
+.sobre{ /*Display obrigatorio aqui. Ele faz com que o Sobre e o nome fiquem um uma coluna e nao uma linha*/
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     justify-content: center;
     margin-left: 32px;
 }
 
 .nome{
     color: #FF406D;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: bolder;
 }
 
@@ -53,6 +52,6 @@ body{
 }
 
 .descricao{
-    line-height: 20px;
+    line-height: 18px;
     color: #AFAFAF;
 }
