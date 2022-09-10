@@ -16,24 +16,27 @@ body{
     background: #101010;
     padding: 20px;
     margin-top: 15px;
+    margin-bottom: 15px;
     border-radius: 5px;
+    display: flex; 
+    flex-direction: column; 
+}
+
+.containerSobre{
+    background-color: #101010;
+    display: flex;
+    margin: 20px;
+}
+
+.sobre{
+    margin-left: 32px;
+    
 }
 
 .avatar{
     width: 180px;
     height: 180px;
     border-radius: 200px;
-}
-
-.containerSobre{ /*Display obrigatorio aqui*/
-    display: flex; 
-}
-
-.sobre{ /*Display obrigatorio aqui. Ele faz com que o Sobre e o nome fiquem um uma coluna e nao uma linha*/
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    margin-left: 32px;
 }
 
 .nome{
