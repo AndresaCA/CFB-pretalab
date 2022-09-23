@@ -18,25 +18,25 @@ notas.forEach((nomes) => {
 // unshift() Adiciona elementos ao inicio de uma  array
 const colors = ['Red', 'Blue', 'Green']
 console.log(colors)
-console.log(colors.includes('Pink'))
 colors.unshift('Pink', 'Yellow')
 console.log(colors)
 
 // includes() verifica se uma array inclui determinado item, e retorna true ou false
-console.log(colors.includes('Orange'))
-console.log(colors.includes('Pink'))
+if (colors.includes('Red') == true) {
+    console.log('Item encontrado no indice ' + colors.lastIndexOf('Red'))
+} else {
+    console.log('Item não encontrado')
+}
 
 // reverse() Reverte a ordem dos elementos de uma aray
 console.log(colors.reverse())
 
 // lastIndexOf() retorna o ultimo indice de determinado item de uma array
 const jewels = ['Diamond', 'Ruby', 'Sapphire', 'Emerald', 'Ruby']
-console.log(jewels)
-let index = jewels.lastIndexOf('Emerald')
-console.log(index)
+console.log(jewels.lastIndexOf('Diamond'))
+
 
 // join() junta todos os elementos de uma array em uma string
 const fruits = ['Apple', 'Orange', 'Peach']
 console.log(fruits)
-let fruitsSt = fruits.join()
-console.log(fruitsSt)
+console.log(fruits.join())
