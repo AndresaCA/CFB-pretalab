@@ -34,10 +34,10 @@ let controle = 0 // primeiramente a variavel é definida
 do { // faça isso
     console.log('Método while') //imprima
     controle += 1 // some mais um
-} while (controle <3) // enquanto o valor da variavel for menor que esse valor
+} while (controle < 3) // enquanto o valor da variavel for menor que esse valor
 
 // Método de repetição for
-for (let i = 0; i < 5; i+=1) {
+for (let i = 0; i < 5; i += 1) {
    console.log('Método for')
 }
 
