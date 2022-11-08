@@ -6,7 +6,7 @@ function App() {
 
   return (
     <div>
-      <h1>Olá Mundo!</h1>
+      <h1>Componentes</h1>
     </div>
     
   )
