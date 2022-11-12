@@ -1,5 +1,5 @@
 :root {
-  font-family: Nunito;
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
@@ -38,30 +38,22 @@ h1 {
 }
 
 button {
-  border-radius: 5px;
+  border-radius: 8px;
   border: 1px solid transparent;
-  padding: 5px 10px;
-  margin-left: 5px;
-  font-size: 0.9em;
-  font-weight: 300;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
-  width: fit-content;
 }
 button:hover {
-  border-color: none;
+  border-color: #646cff;
 }
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-input {
-  padding: 4px;
-  border-radius: 5px;
-  outline: none;
 }
 
 @media (prefers-color-scheme: light) {
@@ -76,14 +68,17 @@ input {
     background-color: #f9f9f9;
   }
 }
+.bio {
+  padding: 10px;
+  margin-bottom: 10px;
+}
 
-img {
-  width: 150px;
+#container {
+  padding: 10px 0 ;
 }
 
 #card {
-  background-color: #1a1a1a;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  padding: 25px;
+  border: 3px solid #1a1a1a;
+  padding: 5px;
+  margin: 20px;
 }
