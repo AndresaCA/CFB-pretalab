@@ -1,0 +1,19 @@
+.sobreContainer {
+    padding: 10rem 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    text-align: start;
+}
+
+.sobreTitle {
+    font-size: 2.5rem;
+    color: #31081F;
+}
+
+.sobreText {
+    font-size: 1.5rem;
+    color: #474a51;
+}

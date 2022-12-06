@@ -1,0 +1,39 @@
+.menuContainer {
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.menuItem {
+    list-style: none;
+}
+
+.menuLink {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menuLink {
+    font-size: 1rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #6B0F1A;
+}
+
+.menuLink:hover {
+    color: #08415C;
+}
+
+@media(max-width:765px) {
+    .menuContainer {
+        flex-direction: column;
+        gap: 1.2rem;
+    }
+}

@@ -1,0 +1,61 @@
+.portfolioContainer {
+    padding: 10rem 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    align-items: center;
+}
+
+.portfolioTitle {
+    font-size: 2.5rem;
+    color: #31081F;
+    margin-bottom: 2rem;
+}
+
+.portfolioSubcontainer {
+    text-align: center;
+}
+
+.portfolioList {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: flex-start;
+    gap: 4rem;
+}
+
+.portfolioListItem {
+    border: 2px solid #474a51;
+    width: 10rem;
+    height: fit-content;
+    list-style: none;
+}
+
+.portfolioListItemDown {
+    background-color: #474a51;
+    color: #fff;
+    width: 10rem;
+    padding: 3rem;
+}
+
+.portfolioListItemDown:hover {
+    cursor: pointer;
+    -webkit-animation: aumentar 0.4s forwards;
+            animation: aumentar 0.4s forwards;
+}
+
+@-webkit-keyframes aumentar {
+    to {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+    }
+  }
+  @keyframes aumentar {
+    to {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5);
+    }
+  }
+  
